@@ -39,3 +39,7 @@ echo
 echo
 
 ;; 
+*) echo "Sorry, Your choices it's not already [T4T]"
+esac
+done
+done
