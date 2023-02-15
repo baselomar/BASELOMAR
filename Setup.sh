@@ -17,8 +17,8 @@ ______________________________
 _______________________________________________________________________
 '|lolcat -p 1.6 -a -d 2 -s 20.0
 echo -e "============================" | lolcat
-echo -e $green "[1] Start Test${enda}"; | lolcat
-echo -e $red "[2] Exit${enda}"; |lolcat
+echo -e $green "[1] Start Test${enda}";
+echo -e $red "[2] Exit${enda}";
 echo -e "============================" | lolcat
 read -p "╰─Solect =" pil;
 
