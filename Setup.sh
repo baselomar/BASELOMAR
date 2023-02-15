@@ -26,9 +26,9 @@ read -p "╰─Solect =" pil;
 
 case $pil in
 1)
-echo -e "Thes Tool Is For Testing"
-echo -e "Hi Mi Name Is Basel"
-echo -e "Its Work"
+echo -b $red "Thes Tool Is For Testing"
+echo -b $red "Hi Mi Name Is Basel"
+echo -b $red "Its Work"
 
 echo
 
@@ -38,7 +38,5 @@ echo
 
 echo
 
-;;
-*) echo "Sorry, Your choices it's not already [T4T]"
-esac
+;; 
 done
