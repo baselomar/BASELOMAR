@@ -18,7 +18,7 @@ _______________________________________________________________________
 '|lolcat -p 1.6 -a -d 2 -s 20.0
 echo -e "============================" | lolcat
 echo -e $green "[1] Start Test${enda}";
-echo -e $red "[2] Exit${enda}";
+echo -e $red "[2] Exit${enda}" |lolcat ;
 echo -e "============================" | lolcat
 read -p "╰─Solect =" pil;
 
@@ -26,9 +26,9 @@ read -p "╰─Solect =" pil;
 
 case $pil in
 1)
-echo -b $red "Thes Tool Is For Testing"
-echo -b $red "Hi Mi Name Is Basel"
-echo -b $red "Its Work" | lolcat
+echo "Thes Tool Is For Testing" |lolcat
+echo "Hi Mi Name Is Basel" | lolcat
+echo "Its Work" | lolcat
 
 echo
 
