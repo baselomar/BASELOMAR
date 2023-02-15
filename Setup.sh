@@ -1,3 +1,4 @@
+echo "claer"
 echo '
 
 
@@ -20,7 +21,7 @@ echo -e "============================" | lolcat
 echo -e $green "[1] Start Test${enda}" | lolcat ;
 echo -e $red "[2] Exit${enda}" |lolcat ;
 echo -e "============================" | lolcat
-read -p "╰─Solect =" pil;
+read -p "╰─Solect =" | lolcat pil;
 
 
 
