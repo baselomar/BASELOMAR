@@ -1,7 +1,3 @@
-import os
-os.system ("claer")
-
-
 echo '
 
 
