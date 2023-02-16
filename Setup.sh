@@ -17,30 +17,23 @@ ______________________________
 [2] - Information - This tool will help you download all kinds of tools
 _______________________________________________________________________
 '|lolcat -p 1.6 -a -d 2 -s 20.0
-echo -e "============================" | lolcat
-echo -e $green "[1] Start Test${enda}" | lolcat ;
-echo -e $red "[2] Exit${enda}" |lolcat ;
-echo -e "============================" | lolcat
-read -p "╰─Solect =" | lolcat pil;
-
-
-
-case $pil in
-1)
-echo "Thes Tool Is For Testing" |lolcat
-echo "Hi Mi Name Is Basel" | lolcat
-echo "Its Work" | lolcat
-
+menu1(){
+printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m START Attacking\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
+read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' option
+if [[ $option == 1 || $option == 01 ]]; then
+clear 
+printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93mSTARTING Attack\e[0m\m"
+Printf "$red You Dont Have ROOT"
+elif [[ $option == 2 || $option == 02 ]]; then
+cd $HOME
+clear
+exit 1
+else
 echo
-
-;;
-
-2) exit
-
+printf "\e[1;93m [>!<] Invalid Selection!\e[0m\n"
+sleep 1
 echo
-
-;; 
-*) echo "Sorry, Your choices it's not Really"
-esac
-done
-done
+fi
+exit
+}
